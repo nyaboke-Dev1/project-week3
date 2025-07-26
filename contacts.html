@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="flex flex-col min-h-screen text-white bg-[#191f26]" 
+
+<header class="top-0 left-0 w-full z-50">    
+    <div class="max-w-full px-6 py-8 backdrop-blur-sm">
+        <!-- <div class="text-4xl absolute text-white uppercase font-light left">My site</div> -->
+    <nav class="font-[Roboto] flex gap-16">
+        <a href="index.html" class="hover:text-blue-500 text-sm font-medium transition-colors relative group text-white">HOME
+            <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+        <a href="about.html" class="hover:text-blue-500 text-sm font-medium transition-colors relative group text-white">ABOUT
+            <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+        <a href="portfolio.html" class="hover:text-blue-500 text-sm font-medium transition-colors relative group text-white">PORTFOLIO
+            <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+        <a href="contacts.html" class="hover:text-blue-500 text-sm font-medium transition-colors relative group text-white">CONTACTS 
+            <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+    </nav>
+    </div>
+</header>
+<!-- contacts section -->
+<!-- Heading -->
+    <h1 class="text-4xl font-bold text-center mb-12">
+    GET IN <span class="text-blue-500">TOUCH</span>
+    </h1>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+    <!-- LEFT SIDE (Contact Info) -->
+    <div class="ml-10">
+        <h2 class="text-xl font-bold mb-4">DON'T BE SHY !</h2>
+        <p class="text-white mb-6">
+        Feel free to get in touch with me. I am always open to discussing<br> new projects,
+        creative ideas, or opportunities to be part of your<br> visions.
+        </p>
+
+        <div class="space-y-4">
+            <div class="flex items-start space-x-4">
+            <span class="text-white text-2xl">📍</span>
+            <div>
+                <p class="font-semibold">ADDRESS POINT</p>
+                <p class="text-white">Kahawa sukari Kiambu,Kenya</p>
+            </div>
+        </div>
+
+        <div class="flex items-start space-x-4">
+            <span class="white text-2xl">📧</span>
+            <div>
+                <p class="font-semibold">MAIL ME</p>
+                <p class="text-gray-400">enyaboke399@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="flex items-start space-x-4">
+            <span class="text-white text-2xl">📞</span>
+            <div>
+                <p class="font-semibold">CALL ME</p>
+                <p class="text-white">+254 721300904</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="flex space-x-4 mt-6">
+            <a href="#" class="text-gray-400 hover:text-blue-500 text-xl">🌐</a>
+            <a href="#" class="text-gray-400 hover:text-blue-500 text-xl">🐦</a>
+            <a href="#" class="text-gray-400 hover:text-blue-500 text-xl">📸</a>
+        <a href="#" class="text-gray-400 hover:text-blue-500 text-xl">💼</a>
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE (Form) -->
+    <div class="-ml-9">
+        <form class="space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+            <input type="text" placeholder="Your Name"
+            class="w-50 px-4 py-3 rounded-full bg-gray-900 border border-gray-700 focus:border-yellow-500 focus:outline-none">
+            <input type="email" placeholder="Your Email"
+            class="w-50 px-4 py-3 rounded-full bg-gray-900 border border-gray-700 focus:border-yellow-500 focus:outline-none">
+        </div>
+
+        <input type="text" placeholder="Your Subject"
+            class="w-full px-4 py-3 rounded-full bg-gray-900 border border-gray-700 focus:border-yellow-500 focus:outline-none">
+
+        <textarea rows="5" placeholder="Your Message"
+            class="w-full px-4 py-3 rounded-2xl bg-gray-900 border border-gray-700 focus:border-yellow-500 focus:outline-none"></textarea>
+
+        <button type="submit"
+            class="bg-blue-500 text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-600 transition">
+            Send Message ➜
+        </button>
+        </form>
+    </div>
+
+    </div>
+</section>
+
+</body>
+</html>
